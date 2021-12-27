@@ -1,0 +1,21 @@
+name: flare_example
+description: Simple Flare example.
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flare_flutter:
+    path: ../../flare_flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# The following section is specific to Flutter.
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
